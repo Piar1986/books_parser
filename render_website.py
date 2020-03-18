@@ -5,14 +5,13 @@ from pathlib import Path
 
 BOOKS_ON_PAGE = 10
 
-def on_reload():
+if __name__ == '__main__':
+    Path('pages').mkdir(parents=True, exist_ok=True)
     with open('books_description.json', 'r', encoding='utf-8') as my_file:
         books_description_json = my_file.read()
 
     books_description = json.loads(books_description_json)
-
     books_description_parted = [books_description[x:x+BOOKS_ON_PAGE] for x in range(0, len(books_description), BOOKS_ON_PAGE)]
-    
     page_quantity = math.ceil(len(books_description)/BOOKS_ON_PAGE)
     
     env = Environment(
@@ -30,6 +29,3 @@ def on_reload():
         page_path = 'pages/index{}.html'.format(page_number)
         with open(page_path, 'w', encoding="utf8") as file:
             file.write(rendered_page)
-
-Path('pages').mkdir(parents=True, exist_ok=True)
-on_reload()
