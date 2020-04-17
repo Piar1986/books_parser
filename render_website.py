@@ -2,6 +2,7 @@ import json
 import math
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from pathlib import Path
+from urllib.parse import quote
 
 BOOKS_ON_PAGE = 10
 
@@ -11,6 +12,13 @@ if __name__ == '__main__':
         books_description_json = my_file.read()
 
     books_description = json.loads(books_description_json)
+
+    for book in books_description:
+        formated_img_src = quote(book['img_src'].replace('\\','/'))
+        formated_book_path = quote(book['book_path'].replace('\\','/'))
+        book['img_src'] = formated_img_src
+        book['book_path'] = formated_book_path
+
     books_description_parted = [books_description[x:x+BOOKS_ON_PAGE] for x in range(0, len(books_description), BOOKS_ON_PAGE)]
     page_quantity = math.ceil(len(books_description)/BOOKS_ON_PAGE)
     
