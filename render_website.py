@@ -3,6 +3,8 @@ import math
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from pathlib import Path
 from urllib.parse import quote
+from more_itertools import chunked
+
 
 BOOKS_ON_PAGE = 10
 
@@ -15,13 +17,13 @@ if __name__ == '__main__':
 
     for book in books_description:
         formated_img_src = quote(book['img_src'].replace('\\','/'))
-        formated_book_address = quote(book['book_path'].replace('\\','/'))
+        formated_book_address = quote(book['book_address'].replace('\\','/'))
         book['img_src'] = formated_img_src
         book['book_address'] = formated_book_address
 
-    books_description_parted = [books_description[x:x+BOOKS_ON_PAGE] for x in range(0, len(books_description), BOOKS_ON_PAGE)]
+    books_description_parted = chunked(books_description, BOOKS_ON_PAGE)
     page_quantity = math.ceil(len(books_description)/BOOKS_ON_PAGE)
-    
+
     env = Environment(
         loader=FileSystemLoader('.'),
         autoescape=select_autoescape(['html', 'xml'])

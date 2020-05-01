@@ -88,8 +88,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if not args.start_page:
-        print('Введите начальную страницу')
-        exit()
+        exit('Введите начальную страницу')
 
     Path('books').mkdir(parents=True, exist_ok=True)
     Path('images').mkdir(parents=True, exist_ok=True)
