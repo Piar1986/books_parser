@@ -15,9 +15,9 @@ if __name__ == '__main__':
 
     for book in books_description:
         formated_img_src = quote(book['img_src'].replace('\\','/'))
-        formated_book_path = quote(book['book_path'].replace('\\','/'))
+        formated_book_address = quote(book['book_path'].replace('\\','/'))
         book['img_src'] = formated_img_src
-        book['book_path'] = formated_book_path
+        book['book_address'] = formated_book_address
 
     books_description_parted = [books_description[x:x+BOOKS_ON_PAGE] for x in range(0, len(books_description), BOOKS_ON_PAGE)]
     page_quantity = math.ceil(len(books_description)/BOOKS_ON_PAGE)

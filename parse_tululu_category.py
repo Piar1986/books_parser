@@ -61,9 +61,9 @@ def get_book_description(url):
 
     book_id = book_page_href.strip('/b')
     book_download_url = book_download_url_template.format(book_id)
-    book_path = download_txt(book_download_url, book_title)
+    book_address = download_txt(book_download_url, book_title)
 
-    if book_path is None:
+    if book_address is None:
         return None
     
     book_image_src = book.select_one('img')['src']
@@ -75,7 +75,7 @@ def get_book_description(url):
         'title': book_title,
         'author': book_author,
         'img_src': img_src,
-        'book_path': book_path,
+        'book_address': book_address,
         'comments': comments,
         'genres': genres
     }
