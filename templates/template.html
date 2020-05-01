@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../static/bootstrap.min.css">
-    <link rel="icon" href="../static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{{STATIC_URL}}bootstrap.min.css">
+    <link rel="icon" href="{{STATIC_URL}}favicon.ico" type="image/x-icon">
 
     <title>Онлайн-библиотека</title>
   </head>
@@ -54,7 +54,7 @@
               <div class="card mb-3" style="max-width: 540px;">
                 <div class="row no-gutters">
                   <div class="col-md-4">
-                    <img src="../{{book['img_src']}}" class="card-img" alt="Карточка">
+                    <img src="{{MEDIA_URL}}{{book['img_src']}}" class="card-img" alt="Карточка">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
@@ -65,7 +65,7 @@
                         <span class="badge badge-light">{{genre}}</span>
                       {% endfor %}
                       <hr>
-                      <p class="card-text"><a href="../{{book['book_address']}}">Читать</a></p>
+                      <p class="card-text"><a href="{{MEDIA_URL}}{{book['book_address']}}">Читать</a></p>
                     </div>
                   </div>
                 </div>

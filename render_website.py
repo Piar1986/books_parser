@@ -7,6 +7,8 @@ from more_itertools import chunked
 
 
 BOOKS_ON_PAGE = 10
+STATIC_URL = '../static/'
+MEDIA_URL = '../'
 
 if __name__ == '__main__':
     Path('pages').mkdir(parents=True, exist_ok=True)
@@ -32,6 +34,8 @@ if __name__ == '__main__':
 
     for page_number, part in enumerate(books_description_parted, 1):
         rendered_page = template.render(
+            STATIC_URL=STATIC_URL,
+            MEDIA_URL=MEDIA_URL,
             books_description=part,
             page_quantity=page_quantity,
             current_page_number=page_number
