@@ -3,7 +3,7 @@
         "title": "X-Fights",
         "author": "Грин Алекс (Злотник",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\X-Fights.txt",
+        "book_address": "books\\X-Fights.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -13,7 +13,7 @@
         "title": "XXI век",
         "author": "Рыбаков Александр",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\XXI век.txt",
+        "book_address": "books\\XXI век.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -23,7 +23,7 @@
         "title": "et in pulverem reverteris",
         "author": "Зайдель Януш",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\et in pulverem reverteris.txt",
+        "book_address": "books\\et in pulverem reverteris.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -33,7 +33,7 @@
         "title": "Деревня Медный ковш",
         "author": "Патрацкая Наталья Владимировна",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Деревня Медный ковш.txt",
+        "book_address": "books\\Деревня Медный ковш.txt",
         "comments": [
             "Достаточно абсурдная книга, прочтению не подлежит."
         ],
@@ -47,7 +47,7 @@
         "title": "Космические вампиры",
         "author": "Уилсон Колин",
         "img_src": "images\\47735.jpg",
-        "book_path": "books\\Космические вампиры.txt",
+        "book_address": "books\\Космические вампиры.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -58,7 +58,7 @@
         "title": "Любовь, опаленная огнем",
         "author": "Афанасьев Александр Владимирович",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Любовь, опаленная огнем.txt",
+        "book_address": "books\\Любовь, опаленная огнем.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -69,7 +69,7 @@
         "title": "Метаморфозы вампиров-2",
         "author": "Уилсон Колин",
         "img_src": "images\\48231.jpg",
-        "book_path": "books\\Метаморфозы вампиров-2.txt",
+        "book_address": "books\\Метаморфозы вампиров-2.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -80,7 +80,7 @@
         "title": "Метаморфозы вампиров",
         "author": "Уилсон Колин",
         "img_src": "images\\48232.jpg",
-        "book_path": "books\\Метаморфозы вампиров.txt",
+        "book_address": "books\\Метаморфозы вампиров.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -91,7 +91,7 @@
         "title": "Облакайдеры(2004, 2006, 2008)",
         "author": "Патрацкая Наталья",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Облакайдеры(2004, 2006, 2008).txt",
+        "book_address": "books\\Облакайдеры(2004, 2006, 2008).txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -102,7 +102,7 @@
         "title": "Ускользающие тени",
         "author": "Лампитт Дина",
         "img_src": "images\\50762.jpg",
-        "book_path": "books\\Ускользающие тени.txt",
+        "book_address": "books\\Ускользающие тени.txt",
         "comments": [],
         "genres": [
             "Исторические любовные романы",
@@ -113,7 +113,7 @@
         "title": "Варлетка Спироза",
         "author": "Патрацкая Наталья Владимировна",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Варлетка Спироза.txt",
+        "book_address": "books\\Варлетка Спироза.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -124,7 +124,7 @@
         "title": "Великий Волшебник",
         "author": "Антонов Антон Станиславович",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Великий Волшебник.txt",
+        "book_address": "books\\Великий Волшебник.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -135,7 +135,7 @@
         "title": "Утомленная фея - 1",
         "author": "Ходов Андрей",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Утомленная фея - 1.txt",
+        "book_address": "books\\Утомленная фея - 1.txt",
         "comments": [],
         "genres": [
             "Альтернативная история",
@@ -147,7 +147,7 @@
         "title": "Утомленная фея - 2",
         "author": "Ходов Андрей",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Утомленная фея - 2.txt",
+        "book_address": "books\\Утомленная фея - 2.txt",
         "comments": [],
         "genres": [
             "Альтернативная история",
@@ -159,7 +159,7 @@
         "title": "Утомленная фея - 3",
         "author": "Ходов Андрей",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Утомленная фея - 3.txt",
+        "book_address": "books\\Утомленная фея - 3.txt",
         "comments": [],
         "genres": [
             "Альтернативная история",
@@ -171,7 +171,7 @@
         "title": "Утомленная фея - 4",
         "author": "Ходов Андрей",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Утомленная фея - 4.txt",
+        "book_address": "books\\Утомленная фея - 4.txt",
         "comments": [],
         "genres": [
             "Альтернативная история",
@@ -183,7 +183,7 @@
         "title": "Утомленная фея",
         "author": "Ходов Андрей",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Утомленная фея.txt",
+        "book_address": "books\\Утомленная фея.txt",
         "comments": [],
         "genres": [
             "Альтернативная история",
@@ -195,7 +195,7 @@
         "title": "Аквамарин и летучие мыши",
         "author": "Патрацкая Наталья",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Аквамарин и летучие мыши.txt",
+        "book_address": "books\\Аквамарин и летучие мыши.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -206,7 +206,7 @@
         "title": "Деревня Медный ковш",
         "author": "Патрацкая Наталья Владимировна",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Деревня Медный ковш.txt",
+        "book_address": "books\\Деревня Медный ковш.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -218,7 +218,7 @@
         "title": "Изгнанники Земли",
         "author": "Лори Андре",
         "img_src": "images\\59890.jpg",
-        "book_path": "books\\Изгнанники Земли.txt",
+        "book_address": "books\\Изгнанники Земли.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -229,7 +229,7 @@
         "title": "Капитан Буревестника",
         "author": "Кай Ольга",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Капитан Буревестника.txt",
+        "book_address": "books\\Капитан Буревестника.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -240,7 +240,7 @@
         "title": "Лазурный гигант",
         "author": "Лори Андре",
         "img_src": "images\\60207.jpg",
-        "book_path": "books\\Лазурный гигант.txt",
+        "book_address": "books\\Лазурный гигант.txt",
         "comments": [],
         "genres": [
             "Исторические приключения",
@@ -251,7 +251,7 @@
         "title": "Остров Больших Молний",
         "author": "Шагурин Николай Яковлевич",
         "img_src": "images\\60627.jpg",
-        "book_path": "books\\Остров Больших Молний.txt",
+        "book_address": "books\\Остров Больших Молний.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -262,7 +262,7 @@
         "title": "Подводные земледельцы",
         "author": "Беляев Александр",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Подводные земледельцы.txt",
+        "book_address": "books\\Подводные земледельцы.txt",
         "comments": [],
         "genres": [
             "Морские приключения",
@@ -273,7 +273,7 @@
         "title": "Радамехский карлик",
         "author": "Лори Андре",
         "img_src": "images\\61065.jpg",
-        "book_path": "books\\Радамехский карлик.txt",
+        "book_address": "books\\Радамехский карлик.txt",
         "comments": [],
         "genres": [
             "Исторические приключения",
@@ -284,7 +284,7 @@
         "title": "Рубиновая звезда",
         "author": "Шагурин Николай Яковлевич",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Рубиновая звезда.txt",
+        "book_address": "books\\Рубиновая звезда.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -295,7 +295,7 @@
         "title": "Семь смертей Лешего",
         "author": "Автор неизвестен",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Семь смертей Лешего.txt",
+        "book_address": "books\\Семь смертей Лешего.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -306,7 +306,7 @@
         "title": "Тайна Архелона (Крик дельфина)",
         "author": "Черкашин Николай",
         "img_src": "images\\61433.jpg",
-        "book_path": "books\\Тайна Архелона (Крик дельфина).txt",
+        "book_address": "books\\Тайна Архелона (Крик дельфина).txt",
         "comments": [
             "Третий раз возвращаюсь к этой книге, которая написана с таким мастерством, что заставляет полностью погрузится в подводный мир, почувствовать себя участником захватывающих событий, заставляет задуматься о месте человека на нашей планете, о нашем общем будущем."
         ],
@@ -319,7 +319,7 @@
         "title": "Виртуальная Мадам Марго",
         "author": "Патрацкая Наталья Владимировна",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Виртуальная Мадам Марго.txt",
+        "book_address": "books\\Виртуальная Мадам Марго.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -330,7 +330,7 @@
         "title": "Глас Господа",
         "author": "Лем Станислав",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Глас Господа.txt",
+        "book_address": "books\\Глас Господа.txt",
         "comments": [],
         "genres": [
             "Классическая проза",
@@ -341,7 +341,7 @@
         "title": "Из воспоминаний Иёна Тихого",
         "author": "Лем Станислав",
         "img_src": "images\\66293.jpg",
-        "book_path": "books\\Из воспоминаний Иёна Тихого.txt",
+        "book_address": "books\\Из воспоминаний Иёна Тихого.txt",
         "comments": [
             "Лем потрясающий писатель, очень советую! Не пожалеете."
         ],
@@ -355,7 +355,7 @@
         "title": "Кибериада",
         "author": "Лем Станислав",
         "img_src": "images\\67112.jpg",
-        "book_path": "books\\Кибериада.txt",
+        "book_address": "books\\Кибериада.txt",
         "comments": [],
         "genres": [
             "Классическая проза",
@@ -366,7 +366,7 @@
         "title": "Охотники до любви",
         "author": "Сегаль Валерий",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Охотники до любви.txt",
+        "book_address": "books\\Охотники до любви.txt",
         "comments": [],
         "genres": [
             "Контркультура",
@@ -377,7 +377,7 @@
         "title": "Сказка о царе и оружейном мастере",
         "author": "Кусков Сергей",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Сказка о царе и оружейном мастере.txt",
+        "book_address": "books\\Сказка о царе и оружейном мастере.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -388,7 +388,7 @@
         "title": "Сказки роботов",
         "author": "Лем Станислав",
         "img_src": "images\\74661.jpg",
-        "book_path": "books\\Сказки роботов.txt",
+        "book_address": "books\\Сказки роботов.txt",
         "comments": [],
         "genres": [
             "Классическая проза",
@@ -399,7 +399,7 @@
         "title": "Вологда-1612",
         "author": "Тюрин Александр Владимирович",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Вологда-1612.txt",
+        "book_address": "books\\Вологда-1612.txt",
         "comments": [],
         "genres": [
             "Историческая проза",
@@ -410,7 +410,7 @@
         "title": "Жизнь во время войны",
         "author": "Шепард Люциус",
         "img_src": "images\\78794.jpg",
-        "book_path": "books\\Жизнь во время войны.txt",
+        "book_address": "books\\Жизнь во время войны.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -421,7 +421,7 @@
         "title": "Звездные дневники Иёна Тихого",
         "author": "Лем Станислав",
         "img_src": "images\\79011.jpg",
-        "book_path": "books\\Звездные дневники Иёна Тихого.txt",
+        "book_address": "books\\Звездные дневники Иёна Тихого.txt",
         "comments": [
             "ЧИТАЛ ЕЩЕ В ГОДЫ ЗАСТОЯ, СМЕШНОЙ ПАРОДИЙНЫЙ СБОРНИК ПРИКЛЮЧЕНИЙ В КОСМОСЕ!!! ДО СИХ ПОР ВРЕМЯ ОТ ВРЕМЕНИ ПЕРЕЧИТЫВАЮ!!! ОЧЕНЬ СВЕЖО И СОВРЕМЕННО, ХОТЬ КНИГА НАПИСАНА ОЧЕНЬ ДАВНО!!!",
             "Читала, очень смешная!))) Всем советую)"
@@ -436,7 +436,7 @@
         "title": "Взгляд из сердца",
         "author": "Мейстер Максим",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Взгляд из сердца.txt",
+        "book_address": "books\\Взгляд из сердца.txt",
         "comments": [],
         "genres": [
             "Детская проза",
@@ -450,7 +450,7 @@
         "title": "Легенда",
         "author": "Ткачук Леонид",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Легенда.txt",
+        "book_address": "books\\Легенда.txt",
         "comments": [
             "Легенда не плохая, т. е. фабула. Но увы надо было не просто рассказать ее, а пережить вместе с героями... А так от нее ни холодно ни жарко и завтра не вспомнишь и никому рассказать не захочется. Герои плоские. Нет запаха и вкуса эпохи. Нужна интрига, нужна поэзия момента, нужна музыка речи желательно той эпохи. Кстати вы не задумывались почему раньше всякие саги. Легенды и былины исполнялись речетативом с каким нибудь музыкальным инструментом. И вообще легенды в чистом виде - вещь очень сложная...Но Вы пытаетесь и это уже хорошо.А написан этот комментарий Вам чтобы Вы росли. Чесные, даже нелицеприятные, слова куда полезней. Чем безразличие. Вы знаете из этой легенды на 3 страницы может вырости целый роман."
         ],
@@ -462,7 +462,7 @@
         "title": "Маша",
         "author": "Ткачук Леонид",
         "img_src": "images\\nopic.gif",
-        "book_path": "books\\Маша.txt",
+        "book_address": "books\\Маша.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -472,7 +472,7 @@
         "title": "Феномен фантастики",
         "author": "Снегов Сеpгей Александpович",
         "img_src": "images\\85114.jpg",
-        "book_path": "books\\Феномен фантастики.txt",
+        "book_address": "books\\Феномен фантастики.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
